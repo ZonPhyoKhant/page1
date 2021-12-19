@@ -1,12 +1,16 @@
+
+
 <!doctype html>
 <html lang="en">
 
     <head>
+
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="generator" content="">  
@@ -29,16 +33,21 @@
 
         <!-- style css for this template -->
         <link href="https://app.yacine-tv.com/assets/css/style.css" rel="stylesheet" id="style">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
         <style>
             *{
                 font-family: Tajawal;
             }
+            body{
+                direction:rtl
+            }
             .sidebar-wrap .sidebar {
-                float: left;
+                float: right;
             }
             .nav {
-                padding-left: 0;
+                padding-right: 0;
             }
             .sidebar-wrap .sidebar .nav .nav-item .nav-link>.arrow {
                 margin-left: 15px;
@@ -55,13 +64,6 @@
 
             .size-35 {
                 font-size: 50px;
-            }
-            .size-40 {
-                font-size: 40px;
-            }
-
-            .size-15 {
-                font-size: 15px;
             }
             .text-black{
                 color: black;
@@ -129,14 +131,14 @@
 
             .m0{
                 margin-right: 0px;
-                margin-left: 0px; 
+                margin-left: 0px;
             }
 
             .ml-5{
-                margin-left: 5px; 
+                margin-left: 5px;
             }
             .mr-5{
-                margin-right: 5px; 
+                margin-right: 5px;
             }
 
             h6, .h6 {
@@ -160,6 +162,14 @@
                 padding-bottom: 45px
             }
 
+            .size-40 {
+                font-size: 40px;
+            }
+
+            .size-15 {
+                font-size: 15px;
+            }
+
             .text-gola{
                 color: #a82f2f;
             }
@@ -179,16 +189,32 @@
                 background: radial-gradient(ellipse at 30% 30%, #f87851 0%, #c44407 50%, #471a00 100%);
             }
             .card .card-body {
-    padding: 3px;
-}
+                padding: 3px;
+            }
         </style>
-              <meta name=“robots”content=“noindex”>
+        <meta name="robots" content="noindex">
 
     </head>
 
-    <body class="body-scroll" data-page="">
+    <body class="body-scroll rtl" data-page="">
 
-
+        <!-- loader 
+        <div class="container-fluid loader-wrap">
+            <div class="row h-100">
+                <div class="col-10 col-md-6 col-lg-5 col-xl-3 mx-auto text-center align-self-center">
+                    <div class="logo-wallet">
+                        <div class="wallet-bottom">
+                        </div>
+                        <div class="wallet-cards"></div>
+                        <div class="wallet-top">
+                        </div>
+                    </div>
+                    <p class="mt-4"><span class="text-secondary">Golato TV</span><br><strong>Please
+                            wait...</strong></p>
+                </div>
+            </div>
+        </div>
+        -->
 
         <!-- Sidebar main menu -->
         <div class="sidebar-wrap  sidebar-overlay">
@@ -199,30 +225,16 @@
                 <div class="row my-3">
                     <div class="col-12 profile-sidebar">
                         <div class="clearfix"></div>
-                        <div class="circle small one"></div>
-                        <div class="circle small two"></div>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                             viewBox="0 0 194.287 141.794" class="menubg">
-                        <defs>
-                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
-                                        gradientUnits="objectBoundingBox">
-                        <stop offset="0" stop-color="#09b2fd" />
-                        <stop offset="1" stop-color="#6b00e5" />
-                        </linearGradient>
-                        </defs>
-                        <path id="menubg"
-                              d="M672.935,207.064c-19.639,1.079-25.462-3.121-41.258,10.881s-24.433,41.037-49.5,34.15-14.406-16.743-50.307-29.667-32.464-19.812-16.308-41.711S500.472,130.777,531.872,117s63.631,21.369,93.913,15.363,37.084-25.959,56.686-19.794,4.27,32.859,6.213,44.729,9.5,16.186,9.5,26.113S692.573,205.985,672.935,207.064Z"
-                              transform="translate(-503.892 -111.404)" fill="url(#linear-gradient)" />
-                        </svg>
+
 
                         <div class="row mt-3">
                             <div class="col-auto">
                                 <figure class="avatar avatar-80 rounded-20 p-1 bg-white shadow-sm">
-                                    <img src="https://www.linkpicture.com/q/ZMLTv.png" alt="" class="rounded-18">
+                                    <img src="https://app.yacine-tv.com/assets/img/golato21.png" alt="" class="rounded-18">
                                 </figure>
                             </div>
                             <div class="col px-0 align-self-center">
-                                <h5 class="mb-2">ZMLTv TV</h5>
+                                <h5 class="mb-2">Yacine TV</h5>
                             </div>
                         </div>
                     </div>
@@ -235,56 +247,56 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="https://app.yacine-tv.com/en">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-house-door"></i></div>
-                                    <div class="col"> Dasghboard</div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="col"> Home</div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
 
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="https://app.yacine-tv.com/matches" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/en/matches" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-smartwatch"></i></div>
                                     <div class="col"> Matches</div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="https://app.yacine-tv.com/videos" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/en/videos" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-play-circle"></i></div>
-                                    <div class="col">Highlights</div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="col"> Highlights</div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="https://app.yacine-tv.com/results" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/en/results" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-grid"></i></div>
                                     <div class="col">Scores</div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link active" href="https://app.yacine-tv.com/leagues" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/en/leagues" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-award"></i></div>
                                     <div class="col">Leagues </div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/news" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-lightbulb"></i></div>
                                     <div class="col">News </div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="https://app.yacine-tv.com/tv" tabindex="-1">
+                                <a class="nav-link active" href="https://app.yacine-tv.com/en/tv" tabindex="-1">
                                     <div class="avatar avatar-40 icon"><i class="bi bi-tv"></i></div>
-                                    <div class="col">TV Schedules</div>
-                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    <div class="col">TV</div>
+                                    <div class="arrow"><i class="bi bi-chevron-left"></i></div>
                                 </a>
                             </li>
                         </ul>
@@ -307,12 +319,12 @@
                     </div>
                     <div class="col text-center">
                         <div class="logo-small">
-                            <img src="https://www.linkpicture.com/q/ZMLTv.png" alt="" />
-                            <h5><span class="text-secondary fw-light">ZMLTv</span><br /></h5>
+                            <img src="https://app.yacine-tv.com/assets/img/golato21.png" alt="" />
+                            <h5><span class="text-secondary fw-light">Yacine</span><br />TV</h5>
                         </div>
                     </div>
                     <div class="col-auto">
-                        <a href="https://app.yacine-tv.com/en" target="_self" class="btn btn-light  btn-44">
+                        <a href="https://app.yacine-tv.com/" target="_self" class="btn btn-light  btn-44">
                             <i class="bi bi-house-door"></i>
                             <span class="count-indicator"></span>
                         </a>
@@ -326,313 +338,17 @@
 
 
 
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7150/815968/tunisia-vs-egypt?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
+         
 
-                                    <p class="mb-0 "><small class=" text-muted size-12">Arab Cup</small></p>
 
-                                </div>
-                            </div>
-                            <div class="row ">
+                <div id="matchTable" class="matches-table ">
 
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1559434130.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Tunisia</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        1 - 0                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1558613293.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Egypt</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
                 </div>
+
+
             </div>
-
-        </div>
-
-        
-
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7149/719488/borussia-m-gladbach-vs-eintracht-frankfurt?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
-
-                                    <p class="mb-0 "><small class=" text-muted size-12">Germany : Bundesliga</small></p>
-
-                                </div>
-                            </div>
-                            <div class="row ">
-
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1558219789.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Borussia M gladbach</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        0 - 0                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1557391571.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Eintracht Frankfurt</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
-
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7151/815969/qatar-vs-algeria?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
-
-                                    <p class="mb-0 "><small class=" text-muted size-12">Arab Cup</small></p>
-
-                                </div>
-                            </div>
-                            <div class="row ">
-
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1559701841.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Qatar</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        19:00                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1558613657.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Algeria</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
-
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7153/710722/crystal-palace-vs-southampton?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
-
-                                    <p class="mb-0 "><small class=" text-muted size-12">England : Premier League</small></p>
-
-                                </div>
-                            </div>
-                            <div class="row ">
-
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1565444750.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Crystal Palace</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        19:30                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1565677491.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Southampton</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
-
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7154/719484/borussia-dortmund-vs-greuther-furth?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
-
-                                    <p class="mb-0 "><small class=" text-muted size-12">Germany : Bundesliga</small></p>
-
-                                </div>
-                            </div>
-                            <div class="row ">
-
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1556983444.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Borussia Dortmund</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        19:30                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1589715115.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Greuther Furth</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
-
-        <div class="row mb-2">
-            <div class="col-12 col-md-12 ">
-                <div class="card mb-3">
-                    <div class="card-body">
-                     <a href="https://app.yacine-tv.com/en/matche/7152/710716/arsenal-vs-west-ham-united?t=1639589942">
-                            <div class="row ">
-                                <div class="col-12  text-center">
-
-                                    <p class="mb-0 "><small class=" text-muted size-12">England : Premier League</small></p>
-
-                                </div>
-                            </div>
-                            <div class="row ">
-
-                                <div class="div40 col align-self-center text-center">
-
-                                    <div class=" col-auto pb-2">
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1557009110.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>Arsenal</h6>
-                                </div>
-
-                                <div class="div20 col-auto align-self-center text-center">
-
-                                    <h6 class="fw-bold">
-                                        20:00                                    </h6>
-                                   <!-- <p class="mb-0 "><small class=" text-muted size-12">تصفيات كأس العالم : أوروبا</small></p>-->
-
-                                </div>
-
-                                <div class="div40 col align-self-center  text-center">
-                                    <div class="col-auto  pb-2 " >
-                                        <figure class="avatar avatar-40 rounded-15 ">
-                                            <img src="https://web-api.golato.net/uploads/team/1564444400.png" alt="" class="w-100">
-                                        </figure>
-                                    </div>
-                                    <h6>West Ham United</h6>
-                                </div>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-         </div>
             <!-- main page content ends -->
- 
+
 
             <footer class="footer">  
                 <div class="container">
@@ -646,7 +362,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://app.yacine-tv.com/en/matches">
+                            <a class="nav-link" href="https://app.yacine-tv.com/en/matches?var=1639876101">
                                 <span>
                                     <i class="nav-icon bi bi-smartwatch"></i>
                                     <span class="nav-text">Matches</span>
@@ -672,7 +388,7 @@
                             <a class="nav-link" href="https://app.yacine-tv.com/en/tv">
                                 <span>
                                     <i class="nav-icon bi bi-tv"></i>
-                                    <span class="nav-text">TV Schedules</span>
+                                    <span class="nav-text">TV</span>
                                 </span>
                             </a>
                         </li>
@@ -685,7 +401,7 @@
 
 
         <!-- Required jquery and libraries -->
-        <script src="https://m.golato.tv/assets/js/jquery-3.3.1.min.js"></script>
+       
         <script src="https://m.golato.tv/assets/js/popper.min.js"></script>
         <script src="https://m.golato.tv/assets/vendor/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 
@@ -701,44 +417,38 @@
 
         <!-- swiper js script -->
         <script src="https://m.golato.tv/assets/vendor/swiperjs-6.6.2/swiper-bundle.min.js"></script>
+        
+
 
         <!-- page level custom script -->
-        <script src="https://m.golato.tv/assets/js/app.js"></script>
-        
+<script id="script_id" src="matches.js?var=1639876101"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208715298-1"></script>
-<script>
-      deleteAllCookies();
-    function deleteAllCookies() {
- var c = document.cookie.split("; ");
- for (i in c) 
-  document.cookie =/^[^=]+/.exec(c[i])[0]+"=;expires=Thu, 01 Jan 1970 00:00:00 GMT";    
-}
+        <script>
+            
+    
+            deleteAllCookies();
+            function deleteAllCookies() {
+                var c = document.cookie.split("; ");
+                for (i in c)
+                    document.cookie = /^[^=]+/.exec(c[i])[0] + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            }
+
+
             window.dataLayer = window.dataLayer || [];
             function gtag() {
-            dataLayer.push(arguments);
+                dataLayer.push(arguments);
             }
-    gtag('js', new Date());
+            gtag('js', new Date());
             gtag('config', 'UA-209082067-1');
             setInterval(function () {
-            window.dataLayer = window.dataLayer || [];
-                    function gtag() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
                     dataLayer.push(arguments);
-                    }
-            gtag('js', new Date());
-                    gtag('config', 'UA-209082067-1');
-            }, 60000);       
-                     </script>
+                }
+                gtag('js', new Date());
+                gtag('config', 'UA-209082067-1');
+            }, 60000);</script>
 
-                     
-                     
-                     
-                     
-                     
-                     
-        
-                     
-                     
-                     
     </body>
 
 </html>
